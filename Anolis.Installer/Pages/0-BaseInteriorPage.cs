@@ -37,8 +37,12 @@ namespace Anolis.Installer.Pages {
 		protected virtual String LocalizePrefix {
 			get { return String.Empty; }
 		}
-		
-		private void InitializeComponent() {
+
+        public override BaseWizardPage PrevPage => throw new NotImplementedException();
+
+        public override BaseWizardPage NextPage => throw new NotImplementedException();
+
+        private void InitializeComponent() {
 			this.SuspendLayout();
 			// 
 			// BaseInteriorPage
