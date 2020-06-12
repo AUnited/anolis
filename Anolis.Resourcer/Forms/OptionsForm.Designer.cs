@@ -22,7 +22,8 @@
 		/// Required method for Designer support - do not modify
 		/// the contents of this method with the code editor.
 		/// </summary>
-		private void InitializeComponent() {
+		private void InitializeComponent()
+		{
 			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(OptionsForm));
 			this.@__tabs = new System.Windows.Forms.TabControl();
 			this.@__tSettings = new System.Windows.Forms.TabPage();
@@ -40,13 +41,13 @@
 			this.@__sLib = new System.Windows.Forms.ListBox();
 			this.@__sLibLbl = new System.Windows.Forms.Label();
 			this.@__tAbout = new System.Windows.Forms.TabPage();
-			this.@__aboutVersion = new System.Windows.Forms.Label();
-			this.@__aboutVersionLbl = new System.Windows.Forms.Label();
-			this.@__aboutLinkAnolis = new System.Windows.Forms.LinkLabel();
-			this.@__aboutLinksLbl = new System.Windows.Forms.Label();
-			this.@__aboutLinkCodeplex = new System.Windows.Forms.LinkLabel();
-			this.@__aboutBlurb = new System.Windows.Forms.Label();
 			this.@__aboutAnolis = new System.Windows.Forms.Label();
+			this.@__aboutBlurb = new System.Windows.Forms.Label();
+			this.@__aboutVersionLbl = new System.Windows.Forms.Label();
+			this.@__aboutVersion = new System.Windows.Forms.Label();
+			this.@__aboutLinksLbl = new System.Windows.Forms.Label();
+			this.@__aboutLinkAnolis = new System.Windows.Forms.LinkLabel();
+			this.@__aboutLinkCodeplex = new System.Windows.Forms.LinkLabel();
 			this.@__tLegal = new System.Windows.Forms.TabPage();
 			this.@__legalToggle = new System.Windows.Forms.Button();
 			this.@__legalText = new System.Windows.Forms.TextBox();
@@ -64,9 +65,7 @@
 			// 
 			// __tabs
 			// 
-			this.@__tabs.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-						| System.Windows.Forms.AnchorStyles.Left)
-						| System.Windows.Forms.AnchorStyles.Right)));
+			this.@__tabs.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
 			this.@__tabs.Controls.Add(this.@__tSettings);
 			this.@__tabs.Controls.Add(this.@__tAbout);
 			this.@__tabs.Controls.Add(this.@__tLegal);
@@ -91,8 +90,7 @@
 			// 
 			// __sUiGrp
 			// 
-			this.@__sUiGrp.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-						| System.Windows.Forms.AnchorStyles.Right)));
+			this.@__sUiGrp.Anchor = ((System.Windows.Forms.AnchorStyles) (((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
 			this.@__sUiGrp.Controls.Add(this.@__sAssoc);
 			this.@__sUiGrp.Controls.Add(this.@__sGimmickLbl);
 			this.@__sUiGrp.Controls.Add(this.@__sGimmick);
@@ -176,9 +174,7 @@
 			// 
 			// __sMoreGrp
 			// 
-			this.@__sMoreGrp.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-						| System.Windows.Forms.AnchorStyles.Left)
-						| System.Windows.Forms.AnchorStyles.Right)));
+			this.@__sMoreGrp.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
 			this.@__sMoreGrp.Controls.Add(this.@__sLibDel);
 			this.@__sMoreGrp.Controls.Add(this.@__sLibAdd);
 			this.@__sMoreGrp.Controls.Add(this.@__sLib);
@@ -192,7 +188,7 @@
 			// 
 			// __sLibDel
 			// 
-			this.@__sLibDel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+			this.@__sLibDel.Anchor = ((System.Windows.Forms.AnchorStyles) ((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
 			this.@__sLibDel.Enabled = false;
 			this.@__sLibDel.FlatStyle = System.Windows.Forms.FlatStyle.System;
 			this.@__sLibDel.Location = new System.Drawing.Point(259, 134);
@@ -204,7 +200,7 @@
 			// 
 			// __sLibAdd
 			// 
-			this.@__sLibAdd.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+			this.@__sLibAdd.Anchor = ((System.Windows.Forms.AnchorStyles) ((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
 			this.@__sLibAdd.FlatStyle = System.Windows.Forms.FlatStyle.System;
 			this.@__sLibAdd.Location = new System.Drawing.Point(178, 134);
 			this.@__sLibAdd.Name = "__sLibAdd";
@@ -215,9 +211,7 @@
 			// 
 			// __sLib
 			// 
-			this.@__sLib.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-						| System.Windows.Forms.AnchorStyles.Left)
-						| System.Windows.Forms.AnchorStyles.Right)));
+			this.@__sLib.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
 			this.@__sLib.FormattingEnabled = true;
 			this.@__sLib.IntegralHeight = false;
 			this.@__sLib.Location = new System.Drawing.Point(9, 53);
@@ -231,8 +225,7 @@
 			this.@__sLibLbl.Name = "__sLibLbl";
 			this.@__sLibLbl.Size = new System.Drawing.Size(325, 33);
 			this.@__sLibLbl.TabIndex = 0;
-			this.@__sLibLbl.Text = "Load ResourceData, ResourceSource, and TypeViewer subclasses from these assemblie" +
-				"s (requires restart):";
+			this.@__sLibLbl.Text = "Load ResourceData, ResourceSource, and TypeViewer subclasses from these assemblie" + "s (requires restart):";
 			// 
 			// __tAbout
 			// 
@@ -251,14 +244,24 @@
 			this.@__tAbout.Text = "About";
 			this.@__tAbout.UseVisualStyleBackColor = true;
 			// 
-			// __aboutVersion
+			// __aboutAnolis
 			// 
-			this.@__aboutVersion.AutoSize = true;
-			this.@__aboutVersion.Location = new System.Drawing.Point(10, 153);
-			this.@__aboutVersion.Name = "__aboutVersion";
-			this.@__aboutVersion.Size = new System.Drawing.Size(106, 13);
-			this.@__aboutVersion.TabIndex = 23;
-			this.@__aboutVersion.Text = "%VersionGoesHere%";
+			this.@__aboutAnolis.AutoSize = true;
+			this.@__aboutAnolis.Font = new System.Drawing.Font("Tahoma", 14F, System.Drawing.FontStyle.Bold);
+			this.@__aboutAnolis.Location = new System.Drawing.Point(8, 9);
+			this.@__aboutAnolis.Name = "__aboutAnolis";
+			this.@__aboutAnolis.Size = new System.Drawing.Size(171, 23);
+			this.@__aboutAnolis.TabIndex = 0;
+			this.@__aboutAnolis.Text = "Anolis Resourcer";
+			// 
+			// __aboutBlurb
+			// 
+			this.@__aboutBlurb.Anchor = ((System.Windows.Forms.AnchorStyles) (((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
+			this.@__aboutBlurb.Location = new System.Drawing.Point(9, 32);
+			this.@__aboutBlurb.Name = "__aboutBlurb";
+			this.@__aboutBlurb.Size = new System.Drawing.Size(340, 106);
+			this.@__aboutBlurb.TabIndex = 1;
+			this.@__aboutBlurb.Text = resources.GetString("__aboutBlurb.Text");
 			// 
 			// __aboutVersionLbl
 			// 
@@ -270,17 +273,14 @@
 			this.@__aboutVersionLbl.TabIndex = 22;
 			this.@__aboutVersionLbl.Text = "Version";
 			// 
-			// __aboutLinkAnolis
+			// __aboutVersion
 			// 
-			this.@__aboutLinkAnolis.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-			this.@__aboutLinkAnolis.LinkArea = new System.Windows.Forms.LinkArea(0, 14);
-			this.@__aboutLinkAnolis.Location = new System.Drawing.Point(9, 199);
-			this.@__aboutLinkAnolis.Name = "__aboutLinkAnolis";
-			this.@__aboutLinkAnolis.Size = new System.Drawing.Size(184, 14);
-			this.@__aboutLinkAnolis.TabIndex = 20;
-			this.@__aboutLinkAnolis.TabStop = true;
-			this.@__aboutLinkAnolis.Text = "http://anol.is";
-			this.@__aboutLinkAnolis.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
+			this.@__aboutVersion.AutoSize = true;
+			this.@__aboutVersion.Location = new System.Drawing.Point(10, 153);
+			this.@__aboutVersion.Name = "__aboutVersion";
+			this.@__aboutVersion.Size = new System.Drawing.Size(106, 13);
+			this.@__aboutVersion.TabIndex = 23;
+			this.@__aboutVersion.Text = "%VersionGoesHere%";
 			// 
 			// __aboutLinksLbl
 			// 
@@ -292,9 +292,21 @@
 			this.@__aboutLinksLbl.TabIndex = 16;
 			this.@__aboutLinksLbl.Text = "Links";
 			// 
+			// __aboutLinkAnolis
+			// 
+			this.@__aboutLinkAnolis.Anchor = ((System.Windows.Forms.AnchorStyles) ((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+			this.@__aboutLinkAnolis.LinkArea = new System.Windows.Forms.LinkArea(0, 14);
+			this.@__aboutLinkAnolis.Location = new System.Drawing.Point(9, 199);
+			this.@__aboutLinkAnolis.Name = "__aboutLinkAnolis";
+			this.@__aboutLinkAnolis.Size = new System.Drawing.Size(184, 14);
+			this.@__aboutLinkAnolis.TabIndex = 20;
+			this.@__aboutLinkAnolis.TabStop = true;
+			this.@__aboutLinkAnolis.Text = "http://anol.is";
+			this.@__aboutLinkAnolis.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
+			// 
 			// __aboutLinkCodeplex
 			// 
-			this.@__aboutLinkCodeplex.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+			this.@__aboutLinkCodeplex.Anchor = ((System.Windows.Forms.AnchorStyles) ((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
 			this.@__aboutLinkCodeplex.LinkArea = new System.Windows.Forms.LinkArea(0, 30);
 			this.@__aboutLinkCodeplex.Location = new System.Drawing.Point(9, 212);
 			this.@__aboutLinkCodeplex.Name = "__aboutLinkCodeplex";
@@ -303,26 +315,6 @@
 			this.@__aboutLinkCodeplex.TabStop = true;
 			this.@__aboutLinkCodeplex.Text = "http://www.codeplex.com/anolis";
 			this.@__aboutLinkCodeplex.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
-			// 
-			// __aboutBlurb
-			// 
-			this.@__aboutBlurb.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-						| System.Windows.Forms.AnchorStyles.Right)));
-			this.@__aboutBlurb.Location = new System.Drawing.Point(9, 32);
-			this.@__aboutBlurb.Name = "__aboutBlurb";
-			this.@__aboutBlurb.Size = new System.Drawing.Size(340, 106);
-			this.@__aboutBlurb.TabIndex = 1;
-			this.@__aboutBlurb.Text = resources.GetString("__aboutBlurb.Text");
-			// 
-			// __aboutAnolis
-			// 
-			this.@__aboutAnolis.AutoSize = true;
-			this.@__aboutAnolis.Font = new System.Drawing.Font("Tahoma", 14F, System.Drawing.FontStyle.Bold);
-			this.@__aboutAnolis.Location = new System.Drawing.Point(8, 9);
-			this.@__aboutAnolis.Name = "__aboutAnolis";
-			this.@__aboutAnolis.Size = new System.Drawing.Size(171, 23);
-			this.@__aboutAnolis.TabIndex = 0;
-			this.@__aboutAnolis.Text = "Anolis Resourcer";
 			// 
 			// __tLegal
 			// 
@@ -337,7 +329,7 @@
 			// 
 			// __legalToggle
 			// 
-			this.@__legalToggle.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+			this.@__legalToggle.Anchor = ((System.Windows.Forms.AnchorStyles) ((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
 			this.@__legalToggle.Location = new System.Drawing.Point(3, 312);
 			this.@__legalToggle.Name = "__legalToggle";
 			this.@__legalToggle.Size = new System.Drawing.Size(170, 23);
@@ -347,9 +339,7 @@
 			// 
 			// __legalText
 			// 
-			this.@__legalText.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-						| System.Windows.Forms.AnchorStyles.Left)
-						| System.Windows.Forms.AnchorStyles.Right)));
+			this.@__legalText.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
 			this.@__legalText.BackColor = System.Drawing.SystemColors.Window;
 			this.@__legalText.Location = new System.Drawing.Point(3, 3);
 			this.@__legalText.Multiline = true;
@@ -361,7 +351,7 @@
 			// 
 			// __cancel
 			// 
-			this.@__cancel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+			this.@__cancel.Anchor = ((System.Windows.Forms.AnchorStyles) ((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
 			this.@__cancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
 			this.@__cancel.FlatStyle = System.Windows.Forms.FlatStyle.System;
 			this.@__cancel.Location = new System.Drawing.Point(294, 383);
@@ -374,7 +364,7 @@
 			// 
 			// __ok
 			// 
-			this.@__ok.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+			this.@__ok.Anchor = ((System.Windows.Forms.AnchorStyles) ((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
 			this.@__ok.FlatStyle = System.Windows.Forms.FlatStyle.System;
 			this.@__ok.Location = new System.Drawing.Point(213, 383);
 			this.@__ok.Margin = new System.Windows.Forms.Padding(3, 0, 3, 0);
@@ -386,7 +376,7 @@
 			// 
 			// __update
 			// 
-			this.@__update.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+			this.@__update.Anchor = ((System.Windows.Forms.AnchorStyles) ((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
 			this.@__update.FlatStyle = System.Windows.Forms.FlatStyle.System;
 			this.@__update.Location = new System.Drawing.Point(6, 383);
 			this.@__update.Name = "__update";
@@ -427,40 +417,39 @@
 			this.@__tLegal.ResumeLayout(false);
 			this.@__tLegal.PerformLayout();
 			this.ResumeLayout(false);
-
 		}
 
-		#endregion
-
-		private System.Windows.Forms.TabControl __tabs;
-		private System.Windows.Forms.TabPage __tSettings;
-		private System.Windows.Forms.TabPage __tAbout;
-		private System.Windows.Forms.Button __cancel;
-		private System.Windows.Forms.Button __ok;
-		private System.Windows.Forms.Label __aboutBlurb;
 		private System.Windows.Forms.Label __aboutAnolis;
-		private System.Windows.Forms.LinkLabel __aboutLinkCodeplex;
-		private System.Windows.Forms.TabPage __tLegal;
-		private System.Windows.Forms.TextBox __legalText;
-		private System.Windows.Forms.GroupBox __sUiGrp;
-		private System.Windows.Forms.Label __sUIButtonsLargeLbl;
-		private System.Windows.Forms.CheckBox __sUIButtonsLarge;
-		private System.Windows.Forms.GroupBox __sMoreGrp;
-		private System.Windows.Forms.Label __sAssocLbl;
-		private System.Windows.Forms.CheckBox __sAssoc;
-		private System.Windows.Forms.Button __sLibDel;
-		private System.Windows.Forms.Button __sLibAdd;
-		private System.Windows.Forms.Label __sLibLbl;
-		private System.Windows.Forms.Label __aboutLinksLbl;
-		private System.Windows.Forms.Button __legalToggle;
-		private System.Windows.Forms.Button __update;
-		private System.Windows.Forms.Label __sAssocWarnLbl;
+		private System.Windows.Forms.Label __aboutBlurb;
 		private System.Windows.Forms.LinkLabel __aboutLinkAnolis;
-		private System.Windows.Forms.ListBox __sLib;
+		private System.Windows.Forms.LinkLabel __aboutLinkCodeplex;
+		private System.Windows.Forms.Label __aboutLinksLbl;
 		private System.Windows.Forms.Label __aboutVersion;
 		private System.Windows.Forms.Label __aboutVersionLbl;
+		private System.Windows.Forms.Button __cancel;
+		private System.Windows.Forms.TextBox __legalText;
+		private System.Windows.Forms.Button __legalToggle;
 		private System.Windows.Forms.OpenFileDialog __ofd;
-		private System.Windows.Forms.Label __sGimmickLbl;
+		private System.Windows.Forms.Button __ok;
+		private System.Windows.Forms.CheckBox __sAssoc;
+		private System.Windows.Forms.Label __sAssocLbl;
+		private System.Windows.Forms.Label __sAssocWarnLbl;
 		private System.Windows.Forms.CheckBox __sGimmick;
+		private System.Windows.Forms.Label __sGimmickLbl;
+		private System.Windows.Forms.ListBox __sLib;
+		private System.Windows.Forms.Button __sLibAdd;
+		private System.Windows.Forms.Button __sLibDel;
+		private System.Windows.Forms.Label __sLibLbl;
+		private System.Windows.Forms.GroupBox __sMoreGrp;
+		private System.Windows.Forms.CheckBox __sUIButtonsLarge;
+		private System.Windows.Forms.Label __sUIButtonsLargeLbl;
+		private System.Windows.Forms.GroupBox __sUiGrp;
+		private System.Windows.Forms.TabPage __tAbout;
+		private System.Windows.Forms.TabControl __tabs;
+		private System.Windows.Forms.TabPage __tLegal;
+		private System.Windows.Forms.TabPage __tSettings;
+		private System.Windows.Forms.Button __update;
+
+		#endregion
 	}
 }
