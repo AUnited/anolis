@@ -50,18 +50,5 @@ namespace Anolis.Installer.Pages {
 			this.Name = "BaseInteriorPage";
 			this.ResumeLayout(false);
 		}
-		
-#if DEBUG
-		
-		public override BaseWizardPage NextPage {
-			get { return null; }
-		}
-		
-		public override BaseWizardPage PrevPage {
-			get { return null; }
-		}
-		
-#endif
-		
 	}
 }
