@@ -12,7 +12,7 @@ using System.Resources;
 [assembly: AssemblyConfiguration( "" )]
 [assembly: AssemblyCompany( "" )]
 [assembly: AssemblyProduct( "Anolis" )]
-[assembly: AssemblyCopyright( "Copyright David Rees and the Anolis Team ©  2008" )]
+[assembly: AssemblyCopyright("Copyright David Rees and the Anolis Team ©  2020")]
 [assembly: AssemblyTrademark( "" )]
 [assembly: AssemblyCulture( "" )]
 
@@ -34,8 +34,8 @@ using System.Resources;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion( "0.8.*" )]
-[assembly: AssemblyFileVersion( "0.8.9" )]
+[assembly: AssemblyVersion("0.8.10")]
+[assembly: AssemblyFileVersion("0.8.10")]
 
 // Assembly is not CLSCompliant due to use of unsigned integers throughought, especially semi-exposed Win32 functionality (like ResourceLang's ResourceId)
 [assembly: CLSCompliant(false)]
